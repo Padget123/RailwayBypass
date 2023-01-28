@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/SexyShekharXD/carbon Carbon
-RUN cd Carbon && pip3 install -U -r requirements.txt
-CMD cd Carbon && bash start
+RUN git clone http://Github.com/Team-Alisha/AlishaMusic Carbon
+RUN cd AlishaMusic && pip3 install -U -r requirements.txt
+CMD cd AlishaMusic && bash start
