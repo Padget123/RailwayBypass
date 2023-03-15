@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone http://Github.com/Padget123/AlishaM AlishaM
-RUN cd AlishaM && pip3 install -U -r requirements.txt
-CMD cd AlishaM && bash start
+RUN git clone https://github.com/Padget123/VickMachineBot
+RUN cd VickMachineBot && pip3 install -U -r requirements.txt
+CMD cd VickMachineBot && bash start
